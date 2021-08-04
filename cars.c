@@ -1,7 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+struct car
+{
+	int id;
+	char model[20];
+	char brand[20];
+	char country_maker[20];
+	int price;
+	char color[10];
+	char condition[20];
+	int kilometrs;
+	int amount_repair;
+};
+
+
 void print_menu();
+
 
 int main()
 {
